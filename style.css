@@ -5,7 +5,6 @@ body {
 
 main {
     margin: 50px 140px;
-    background-color: lightblue;
 }
 
 .top-banner {
@@ -27,6 +26,10 @@ main {
 
 }
 
+.box>h1 {
+    font-size: 40px;
+}
+
 .red-button {
     background-color: rgba(221, 0, 0, 1);
     padding: 10px 30px;
@@ -34,10 +37,103 @@ main {
     color: white;
     font-weight: 700;
     border: none;
+    cursor: pointer;
 }
 
 .right-container {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.match-info {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 250px 3fr;
+}
+
+.parent-div-1 {
+    display: flex;
+    height: 210px;
+}
+
+.fixed-size {
+    background-color: rgba(22, 22, 22, 1);
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px;
+    row-gap: 10px;
+
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+.highlighted-btn {
+    background-color: rgba(221, 0, 0, 1);
+    color: white;
+}
+
+.parent-div-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.cards {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.cards>img {
+    width: 100%;
+    height: auto;
+}
+
+.card-details {
+    padding-left: 20px;
+}
+
+.card-btn {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(22, 22, 22, 1);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.goal {
+    color: white;
+}
+
+hr {
+    width: 80%;
+    height: 1px;
+    border-width: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link>a {
+    margin: 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: small;
 }
