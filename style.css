@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin: 50px 140px;
+    background-color: lightblue;
+}
+
+.top-banner {
+    background-color: rgba(22, 22, 22, 1);
+    border-radius: 30px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.left-container {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    padding-left: 100px;
+    padding-bottom: 50px;
+
+}
+
+.red-button {
+    background-color: rgba(221, 0, 0, 1);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
