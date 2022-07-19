@@ -108,6 +108,27 @@ main {
     cursor: pointer;
 }
 
+/* upcoming match-card style */
+.match-cards {
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.match-cards>img {
+    width: 35%;
+    height: auto;
+}
+
+.match-cards>h4 {
+    padding: 0 10px;
+}
+
+.match-card-details {
+    text-align: center;
+}
+
 footer {
     background-color: rgba(22, 22, 22, 1);
     text-align: center;
@@ -136,4 +157,11 @@ hr {
     text-decoration: none;
     color: gray;
     font-size: small;
+}
+
+.social-links>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    margin-left: 30px;
 }
