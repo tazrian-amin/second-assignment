@@ -47,6 +47,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 2s ease .5s;
+}
+
+/* applying transition on the top-banner section  */
+.top-banner:hover>.right-container {
+    transform: scale(0.70);
 }
 
 .match-info {
@@ -242,7 +248,7 @@ hr {
     }
 
     .highlighted-btn {
-        border: 0;
+        border: 2px solid black;
     }
 
     .parent-div-2 {
@@ -307,7 +313,7 @@ hr {
     }
 
     .highlighted-btn {
-        border: 0;
+        border: 2px solid black;
         font-weight: 700;
         padding: 15px 30px;
         border-radius: 5px;
