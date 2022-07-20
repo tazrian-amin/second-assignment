@@ -127,6 +127,10 @@ main {
     text-align: center;
 }
 
+#hidden-btn {
+    display: none;
+}
+
 footer {
     background-color: rgba(22, 22, 22, 1);
     text-align: center;
@@ -161,7 +165,7 @@ hr {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
-    margin-left: 30px;
+    margin: 20px;
 }
 
 /* style for mobile screen */
@@ -210,5 +214,65 @@ hr {
 
     .social-links>a {
         margin: 10px;
+    }
+}
+
+/* style for tablet screen */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    main {
+        margin: 50px;
+    }
+
+    .box {
+        padding: 50px;
+    }
+
+    .match-info {
+        margin-top: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .parent-div-1 {
+        display: block;
+        height: auto;
+    }
+
+    .fixed-size {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-btn {
+        border: 1px solid gray;
+        margin: 0 30px;
+        padding: 15px 30px;
+    }
+
+    .highlighted-btn {
+        border: 0;
+        font-weight: 700;
+        padding: 15px 30px;
+        border-radius: 5px;
+    }
+
+    .parent-div-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hidden-card {
+        display: none;
+    }
+
+    #hidden-btn {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-link {
+        flex-wrap: wrap;
     }
 }
