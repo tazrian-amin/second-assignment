@@ -29,6 +29,10 @@ main {
     font-size: 40px;
 }
 
+.ellipsis {
+    display: none;
+}
+
 .red-button {
     background-color: rgba(221, 0, 0, 1);
     padding: 10px 30px;
@@ -104,6 +108,10 @@ main {
 .card-btn {
     margin-top: 20px;
     cursor: pointer;
+}
+
+.icon {
+    margin-right: 15px;
 }
 
 /* upcoming match-card style */
@@ -183,6 +191,18 @@ hr {
         padding: 30px;
     }
 
+    .box>h1 {
+        font-size: 35px;
+    }
+
+    .hidden-text {
+        display: none;
+    }
+
+    .ellipsis {
+        display: inline;
+    }
+
     .match-info {
         margin-top: 30px;
         grid-template-columns: repeat(1, 1fr);
@@ -224,16 +244,26 @@ hr {
     }
 
     .box {
-        padding: 50px;
+        padding: 30px;
+    }
+
+    .box>h1 {
+        font-size: 25px;
+    }
+
+    .right-container>img {
+        max-width: 100%;
+        height: auto;
     }
 
     .match-info {
-        margin-top: 20px;
+        margin: auto;
         grid-template-columns: repeat(1, 1fr);
     }
 
     .parent-div-1 {
-        display: block;
+        align-items: center;
+        justify-content: center;
         height: auto;
     }
 
@@ -245,9 +275,10 @@ hr {
     }
 
     .nav-btn {
+        font-size: 0.7em;
         border: 1px solid gray;
-        margin: 0 30px;
-        padding: 15px 30px;
+        margin: 0 20px;
+        padding: 15px 15px;
     }
 
     .highlighted-btn {
